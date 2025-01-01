@@ -1,4 +1,4 @@
-FROM alpine:3.20
+FROM alpine:3.21
 
 ARG USERNAME="app"
 COPY nginx.conf /etc/nginx/nginx.conf
